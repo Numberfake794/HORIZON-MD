@@ -3,17 +3,17 @@ import speed from 'performance-now'
 
 let handler = async (m, { conn }) => {
   m.react('⏱️')
-  let thumbnail = 'https://i.imgur.com/ZKjzjwr.jpeg'
+  let thumbnail = 'https://telegra.ph/file/9a936ae2abc95e4bac05c.jpg'
   let fgg = {
     key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' },
     message: {
       contactMessage: {
-        displayName: `HORIZON-MD`,
+        displayName: `*SHANI-MD*`,
         vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'HORIZON-MD'\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`,
       },
     },
   }
-  let pingMsg = await conn.sendMessage(m.chat, { text: 'Testing BOT Speed...' }, { quoted: fgg })
+  let pingMsg = await conn.sendMessage(m.chat, { text: '*sʜᴀɴɪ ᴍᴅ ᴘɪɴɢɪɴɢ...🐿️*' }, { quoted: fgg })
 
   let timestamp = speed()
 
