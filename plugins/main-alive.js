@@ -3,11 +3,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   m.react('👋🏻')
   
   let name = m.pushName || conn.getName(m.sender)
-  let img = 'https://i.imgur.com/5lbN4va.jpeg'
+  let img = 'https://telegra.ph/file/9a936ae2abc95e4bac05c.jpg'
   let textal = `
-  🌐 𝑮𝒓𝒆𝒆𝒕𝒊𝒏𝒈𝒔 𝒇𝒓𝒐𝒎 𝑯𝑶𝑹𝑰𝒁𝑶𝑵-𝑴𝑫 🌐\n\n
-  〈 ⚜ WELCOME! ${name} ⚜ 〉
-
+  🌐 *𓄂꯭꯭ᬼ꯭꯭𓄻꯭|ᶦϻᷧ།‌꯭➠𝗦͟𝗛͟𝗔͟𝗡𝗜𝆺꯭꯭꯭꯭𝅥𝆬❍֟፝͢͠ᴘ─𝄄꯭꯭𝄄꯭꯭꯭ ̶꯭𝅥ͦ𝆬* 🌐\n\n
+  〈 ⚜ WELCOME! ${name}   
   𝐼 𝑎𝑚 𝑝𝑙𝑒𝑎𝑠𝑒𝑑 𝑡𝑜 𝑎𝑛𝑛𝑜𝑢𝑛𝑐𝑒 𝑡ℎ𝑎𝑡 𝐼 𝑎𝑚 𝑐𝑢𝑟𝑟𝑒𝑛𝑡𝑙𝑦 𝑜𝑝𝑒𝑟𝑎𝑡𝑖𝑜𝑛𝑎𝑙 𝑎𝑛𝑑 𝑟𝑒𝑎𝑑𝑦 𝑡𝑜 𝑠𝑒𝑟𝑣𝑒 𝑦𝑜𝑢𝑟 𝑚𝑒𝑠𝑠𝑎𝑔𝑖𝑛𝑔 𝑛𝑒𝑒𝑑𝑠.
   \n   
    𝐴𝑠 𝑦𝑜𝑢𝑟 𝑎𝑑𝑣𝑎𝑛𝑐𝑒𝑑 𝑊ℎ𝑎𝑡𝑠𝐴𝑝𝑝 𝑏𝑜𝑡, 𝐼 𝑎𝑚 𝑒𝑞𝑢𝑖𝑝𝑝𝑒𝑑 𝑤𝑖𝑡ℎ 𝑎 𝑠𝑢𝑖𝑡𝑒 𝑜𝑓 𝑓𝑒𝑎𝑡𝑢𝑟𝑒𝑠 𝑑𝑒𝑠𝑖𝑔𝑛𝑒𝑑 𝑡𝑜 𝑒𝑛ℎ𝑎𝑛𝑐𝑒 𝑦𝑜𝑢𝑟 𝑐𝑜𝑚𝑚𝑢𝑛𝑖𝑐𝑎𝑡𝑖𝑜𝑛 𝑒𝑥𝑝𝑒𝑟𝑖𝑒𝑛𝑐𝑒.
